@@ -1,0 +1,17 @@
+{
+    "seed": 42,
+    "chemberta_model": "seyonec/ChemBERTa-zinc-base-v1",
+    "chemberta_pooling": "attention-mask-aware mean pooling",
+    "chemberta_max_length": 512,
+    "gene_embedding_method": "TruncatedSVD",
+    "gene_embedding_dim": 200,
+    "gene_svd_components": 200,
+    "gene_svd_explained_variance": 0.9999474287033081,
+    "gene_universe": "union of ENCORI genes and DrugBank target/enzyme/transporter/carrier genes",
+    "humannet_score_column": "Score",
+    "humannet_score_threshold": null,
+    "include_carrier_edges": true,
+    "target_relation_in_base_graph": false,
+    "midrug_target_file": "midrug_master_final.csv",
+    "base_graph": "biological_base_graph_final.pth"
+}
